@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Smart Drop</title>
+    <link rel = "icon" href="./images/Logo/logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</head>
+
+<style>
+  .img-top {
+    object-fit: cover;
+    height: 400px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    .img-top {
+        height: 200px;
+    }  
+}
+
+.explore {
+   background-color: initial;
+    background-image: linear-gradient(-180deg, #00D775, #00BD68);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 20px;
+    font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+    height: 44px;
+    line-height: 44px;
+    outline: 0;
+    overflow: hidden;
+    padding: 0 20px;
+    pointer-events: auto;
+    position: relative;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 170px;
+    z-index: 9;
+    border: 0;
+   
+  }
+  
+  .explore:hover {
+    color: #fff !important;
+    transform: scale(1.01);
+    transition: 1s;
+  } 
+
+
+/* Who we are texts */
+.mission {
+   gap: 20px;
+   justify-content: center; 
+   margin-bottom: 50px;
+}
+
+.mission h4 {
+    font-weight: bold;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.col-md-5 {
+    border: 1px solid rgb(100, 100, 100);
+    border-radius: 25px;
+    box-shadow: 2px 2px 1px #00D775;
+}
+
+.col-md-12 {
+    border: 1px solid rgb(100, 100, 100);
+    border-radius: 25px;
+    box-shadow: 2px 2px 1px #00D775;
+    padding: 20px;
+}
+
+.col-md-4 img {
+    object-fit: cover;
+    height: 300px;
+    width: 100%;
+}
+
+#img-gradient{
+  object-fit: cover;
+  height: 400px;
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+    #img-gradient {
+     height: 200px;
+    }  
+}
+.logo-footer {
+  height: 180px;
+  width: 400px;
+}
+#logo-footer {
+  object-fit: cover;
+  height: 150px;
+  width: 100%;
+  display: block;
+}
+
+@media only screen and (max-width: 768px) {
+    #logo-footer, .logo-footer {
+     height: 100px;
+     width: auto;
+     object-fit: cover;
+    }  
+}
+#facebook {
+  height: 30px;
+  width: auto;
+}
+
+#follow-us {
+  font-family: 'Noto';
+  max-width: 400px;
+}
+
+#group{
+  text-align: start !important;
+  color: gray;
+  font-family: 'Noto';
+}
+#grouplist {
+  list-style: none;
+  text-align: left;
+  font-family: 'Noto';
+  font-size: 20px;
+  color: grey;
+}
+
+.col-md-6 {
+  padding-top: 60px;
+  padding-bottom:60px;
+}
+
+.col-md-6 h4, h5 {
+  font-family: serif;
+  color: grey;
+  padding: 10px;
+}
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">
+            <img src="./images/Logo/logo.png" alt="Logo" width="100" height="48">
+          </a>
+    
+          <div class="d-grid gap-2 d-inline-flex">
+            <a href="#"><button class="btn btn-success me-md-2" type="button">Login</button></a>
+            <a href="#"><button class="btn btn-success me-md-3" type="button">Signup</button></a>
+          </div>
+    
+          <a href="#"class="text-decoration-none">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="30" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+              <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+            </svg>
+            <th scope="col">Cart <span>0</span> </th>
+          </a>
+    
+    
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 container-fluid">
+           
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Categories
+                </a>
+                  <ul class="dropdown-menu dropdown-menu-lg-end">
+                    <li><button class="dropdown-item" type="button"><a href="./laptopscomputer.html">Laptops and Computers</a></button></li>
+                    <li><button class="dropdown-item" type="button" ><a href="./tools&Equipments.html">Tools and Equipments</a></button></li>
+                    <li><button class="dropdown-item" type="button" ><a href="./mobile&gadgets.html">Mobile and Gadgets</a></button></li>
+                    <li><button class="dropdown-item" type="button" ><a href="./home&living.html">Home and Living</a></button></li>
+                    <li><button class="dropdown-item" type="button" ><a href="./womensapparel.html">Women's Apparel </a></button></li>
+                    <li><button class="dropdown-item" type="button" ><a href="./mensapparel.html">Men's Apparel</a></button></li>
+                  </ul>
+              </li>
+             
+    
+              <div class="nav-item container-fluid">
+                <form class="d-flex" role="search">
+                  <input class="form-control form-control-sm me-1" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit"><b>Search</b></button>
+                </form>
+                
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- banner -->
+    <div>
+        <img src="./images/About us/office.jpg" alt="" class="img-top">
+    </div>
+
+    <div style="padding-top: 50px;" class="text-center ">
+      <h2 class="fw-bold" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Smart Drop is an innovative e-commerce platform that is based in the Philippines.</h2>
+      <p class="text-secondary">A simple project that our team developed to provide customers with an easy, fast, and secure online shopping <br> experience through strong payment and fulfillment support.<br><br> We believe online shopping should be accessible, easy and enjoyable. This is the vision Smart Drop <br> aspires to deliver on the platform, every single day.</p>
+    </div>
+
+    <div class="text-center" style="padding-bottom: 30px">
+      <a href="./index.html"><button type="button" class="explore" role="button">Explore Smart Drop</button></a>
+    </div>
+
+    <div class="container">
+      <div class="row d-inline-flex mission">
+       <div class="col-md-5 text-center">
+        <h4>Our mission</h4>
+        <p>We believe in the transformative power of technology and want to change the world for the better by providing a platform to connect buyers and sellers within one community.</p>
+       </div>
+       <div class="col-md-5 text-center">
+        <h4>Who we are</h4>
+        <p>Students of KodeGo aiming to be a top web developer in the future, with a driven determination, exploring our potentials, and make lives change through coding.</p>
+       </div>
+       <div class="col-md-12 text-center">
+          <h4>Our Mission</h4>
+          <p> By doing this, our goal is to help you make as much profit as possible while keeping your cost at a minimum. We believe that buyer and seller are equally important and should be treated equally at all times.</p>
+          <div class="row mission">
+            <div class="col-md-4">
+              <img src="./images/About us/help.jpeg">
+            </div>
+              <div class="col-md-4">
+                <img src="./images/About us/help2.jpg">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <img src="./images/About us/gradient.png" alt="" id="img-gradient">
+    </div>
+     <hr>
+
+
+    <footer>
+      <div class="container-fluid">
+        <div class="row d-inline-flex w-100 gy-5">
+          <div class="col col-md-4" id="follow-us">
+            <div class="logo-footer">
+              <img src="./images/Logo/logo.png" id="logo-footer">
+           </div> <br>
+           <div>
+              <h5 class="text-secondary">Follow Us:</h5>
+              <a href=""><button style="border-style: none; background-color: white;"><img src="./images/About us/fb.jpg" id="facebook" alt=""></button></a>
+              <a href=""><button style="border-style: none; background-color: white;"><img src="./images/About us/ig.png" id="facebook" alt=""></button></a> 
+           </div> <br>
+           <h5 class="text-secondary">STAY UPDATED WITH US!</h5>
+          </div>
+
+            <div class="col-md-6 text-center">
+              <h4>A KodeGo Major Project 1</h4>
+              <h5>2023 - Batch WD52P - Group 2</h5>
+              <h5>SmartDrop - Drop shipping website</h5>
+            </div>
+          <div class="col-md-2 text-center">
+            <h5 class="fw-bold"  id="group">Group Members:</h5>
+            <ul id="grouplist">
+              <li>Roen Marcial Sales</li>
+              <li>Ronel Labuguen</li>
+              <li>Joven Regencia</li>
+              <li>John Errol Alba</li>
+              <li>Jhun Balanquit</li>
+              <li>Jeffrey Lestones</li>
+              <li>Sean Hallasgo</li>
+            </ul>
+          </div>
+        </div>
+      </div> <hr>
+      <p class="text-center text-secondary">Copyright &copy; 2023 - Smart Drop. Trademarks belong to their respective owners. All rights reserved.</p>
+
+    </footer>
+</body>
+</html>
+
+
+
+
+
